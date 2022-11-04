@@ -5,6 +5,7 @@ authors = ["Erik Rogers <erik@underlogic.tech>"]
 repository = "https://github.com/UnderLogic/sega-controller"
 edition = "2021"
 license = "MIT"
+description = "Embedded driver for reading Sega controller input"
 categories = ['embedded', 'emulators', 'game-development', 'hardware-support', 'no-std']
 keywords = ['embedded-hal', 'controller', 'sega', 'mega_drive', 'genesis']
 
