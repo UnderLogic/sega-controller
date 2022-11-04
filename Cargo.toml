@@ -1,0 +1,16 @@
+[package]
+name = "sega-controller"
+version = "0.1.0"
+authors = ["Erik Rogers <erik@underlogic.tech>"]
+repository = "https://github.com/UnderLogic/sega-controller"
+edition = "2021"
+license = "MIT"
+categories = ['embedded', 'emulators', 'game-development', 'hardware-support', 'no-std']
+keywords = ['embedded-hal', 'controller', 'input', 'sega', 'mega drive', 'genesis']
+
+[features]
+all = ["mega-drive"]
+mega-drive = []
+
+[dependencies]
+embedded-hal = { version = "0.2.7", features = ["unproven"] }
