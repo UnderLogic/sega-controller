@@ -39,7 +39,7 @@ match controller.read_state() {
             // start button is currently held down
         }
     }
-    Err(Error:NotPresent) => {} // controller is not connected
+    Err(Error::NotPresent) => {} // controller is not connected
     _ => {}
 }
 
