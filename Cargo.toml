@@ -6,7 +6,7 @@ repository = "https://github.com/UnderLogic/sega-controller"
 edition = "2021"
 license = "MIT"
 categories = ['embedded', 'emulators', 'game-development', 'hardware-support', 'no-std']
-keywords = ['embedded-hal', 'controller', 'input', 'sega', 'mega', 'drive', 'genesis']
+keywords = ['embedded-hal', 'controller', 'input', 'sega', 'mega_drive', 'genesis']
 
 [features]
 all = ["mega-drive"]
